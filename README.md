@@ -1,7 +1,7 @@
 # Smart India Hackathon Workshop
-# Date:
-## Register Number:
-## Name:
+# Date: 5/6/2025
+## Register Number:212224040160
+## Name: Kiruthiga.B
 ## Problem Title
 SIH 1710: Enhancing Navigation for Railway Station Facilities and Locations
 ## Problem Description
@@ -12,15 +12,78 @@ Ministry of Railway
 
 ## Idea
 
+We propose a Smart Station Navigation System (SSNS) that offers real-time, multi-platform, accessible navigation for passengers within railway stations. The system will consist of a mobile app, interactive digital kiosks, and voice-guided assistance tailored to various accessibility needs.
+
+Key Components:
+
+3D Indoor Navigation with AR for mobile.
+
+IoT Sensor Integration for real-time facility status and dynamic path updates.
+
+Central Database and Admin Dashboard for layout management.
+
+Voice Navigation Support in multiple regional languages.
+
+Integration with Indian Railways apps (e.g., IRCTC Rail Connect) for seamless experience.
 
 ## Proposed Solution / Architecture Diagram
+
+![image](https://github.com/user-attachments/assets/57e05bc9-3a7c-4e5d-8f11-90f92af0a924)
 
 
 ## Use Cases
 
+Passenger Navigation
+
+Locate platforms, food courts, washrooms, cloakrooms, ticket counters, etc.
+
+Real-time rerouting based on congestion or blockages.
+
+Visually Impaired Assistance
+
+Voice-guided step-by-step directions.
+
+Integration with accessibility tools like screen readers.
+
+Real-Time Updates
+
+Platform changes, temporary facility closures, rerouting paths.
+
+Multilingual Support
+
+Navigation available in Hindi, English, and regional languages.
+
+Kiosk-Based Navigation
+
+Quick visual and voice-based guidance for non-smartphone users.
+
+Station Management
+
+Admin can update map data, closed areas, new facility locations.
+
 
 ## Technology Stack
 
-
+ Layer	                  Technology
+Mobile App	           Flutter / React Native
+Backend Server	       Node.js / Python (FastAPI)
+Database	             PostgreSQL / MongoDB
+Real-time Updates	     Firebase / WebSockets / MQTT
+Indoor Navigation    	Wi-Fi RTT, BLE Beacons, ARCore/ARKit
+                                                     
 ## Dependencies
+
+BLE Beacon Infrastructure installed across the station.
+
+Station Layout Data provided by Ministry of Railways.
+
+Integration APIs from Indian Railways (ticketing, train status).
+
+Language Packs for regional voice navigation.
+
+Indoor Mapping Permissions from station authorities.
+
+Power & Network Setup for digital kiosks.
+
+
 
